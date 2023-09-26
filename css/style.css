@@ -1,0 +1,495 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(/fonts/static/Karla-LightItalic.ttf);
+}
+
+body {
+    font-family: "Karla";
+    color: rgb(229, 229, 203);
+    background-color: rgb(26, 18, 11);
+}
+
+/*Header*/
+header {
+    background-color: rgb(60, 42, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.Nombre-Nav {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(229, 229, 203);
+}
+
+.Items-Nav {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link {
+    color: rgb(229, 229, 203);
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    color: rgb(213, 206, 163);
+}
+
+.Nombre-Nav:hover {
+    color: rgb(213, 206, 163);
+}
+
+/*Home*/
+
+#BannerHome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+#BannerHome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+#BannerHome .Titulo-Home {
+    font-size: 70px;
+    color: rgb(229, 229, 203);
+    padding: 10px 20px;
+}
+
+#BannerHome .Subtitulo-Home {
+    font-size: 20px;
+    color: rgb(229, 229, 203);
+    padding: 10px 20px;
+}
+
+.imagenes-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.imagen-item {
+    text-align: center;
+    position: relative;
+}
+
+.imagen-texto {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(60, 42, 33);
+    color: rgb(229, 229, 203);
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.imagen-item img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.imagenes-locales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagen-local {
+    flex: 0 0 calc(50% - 10px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.imagen-local:last-child {
+    align-self: flex-end;
+}
+
+.imagen-local img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-local:hover img {
+    transform: scale(1.05);
+}
+
+.opiniones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Opinion-Home {
+    flex: 0 0 calc(33.33% - 20px);
+    min-width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Opinion-Home img {
+    max-width: 100%;
+    height: auto;
+    flex: 0 0 100px;
+    margin-bottom: 10px;
+}
+
+.Opinion-Home .contenido-opinion {
+    flex: 1;
+}
+
+.Opinion-Home h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.Boton-Opiniones {
+    display: inline-block;
+    background-color: rgb(60, 42, 33);
+    color: rgb(229, 229, 203);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/*Burgers*/
+
+#Titulo-Burgers {
+    text-align: center;
+}
+
+.Burger {
+    width: 620px;
+    height: 620px;
+    border: 5px rgb(213, 206, 163);
+    background-color: rgb(60, 42, 33);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: double;
+}
+
+.Burger-Image {
+    width: 420px;
+    height: 420px;
+    padding-bottom: 10px;
+}
+
+.Titulo-Burger {
+    font-size: 25px;
+}
+
+#Burgers-Burgers {
+    text-align: center;
+}
+
+.Info-Burger {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Main-Burgers {
+    background-image: url(/images/Banner-Burgers.jpg);
+}
+
+/*Bebidas*/
+
+#Titulo-Bebidas {
+    text-align: center;
+    background-color: rgb(26, 18, 11);
+}
+
+.Bebidas {
+    width: 620px;
+    height: 620px;
+    border: 5px rgb(213, 206, 163);
+    background-color: rgb(60, 42, 33);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: double;
+}
+
+.SubTitulo-Bebidas {
+    font-size: 25px;
+}
+
+.Imagen-Bebidas {
+    width: 600px;
+    height: 470px;
+    padding-top: 10px;
+}
+
+#Bebidas-Bebidas {
+    text-align: center;
+}
+
+.Info-Bebidas {
+    font-size: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+#Main-Bebidas {
+    background-image: url(/images/Banner-Bebidas.jpg);
+}
+
+/*Postres*/
+
+#Titulo-Postres {
+    text-align: center;
+    background-color: rgb(26, 18, 11);
+}
+
+.Postres {
+    width: 620px;
+    height: 620px;
+    border: 5px rgb(213, 206, 163);
+    background-color: rgb(60, 42, 33);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: double;
+}
+
+.SubTitulo-Postres {
+    font-size: 25px;
+}
+
+.Imagen-Postres {
+    width: 600px;
+    height: 470px;
+    padding-top: 10px;
+}
+
+#Postres-Postres {
+    text-align: center;
+}
+
+.Info-Postres {
+    font-size: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+#Main-Postres {
+    background-image: url(/images/Banner-Postres.jpg);
+}
+
+/*Locales*/
+
+#Main-Locales {
+    background-image: url(/images/Banner-Burgers.jpg);
+}
+
+#Imagenes-Local {
+    text-align: center;
+}
+
+.Imagenes-Local2 {
+    border-style: double;
+    margin: 20px;
+}
+
+#Titulo-Locales {
+    text-align: center;
+}
+
+#Ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+Maps {
+    text-align: center;
+}
+
+.Maps iframe {
+    max-width: 300%;
+    height: 300px;
+}
+
+.Maps p {
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+}
+
+/*Opinion*/
+
+#Opiniones-Opiniones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/Banner-Opiniones.jpg);
+    height: 800px;
+}
+
+.Opinion {
+    padding: 10px;
+    border: rgb(229, 229, 203);
+    border-style: double;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(60, 42, 33);
+}
+
+.Nombre-Cliente {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Texto-Cliente {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Imagen-Cliente {
+    border-radius: 50%;
+}
+
+/*Contacto*/
+
+#Contacto-Contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image: url(/images/Banner-Burgers.jpg);
+}
+
+.Formulario {
+    border-style: double;
+    border-color: rgb(229, 229, 203);
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(60, 42, 33);
+    padding-bottom: 10px;
+}
+
+.Titulo-Formulario {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.Boton-Enviar {
+    background-color: rgb(213, 206, 163);
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.Boton-Enviar:hover {
+    background-color: rgb(229, 229, 203);
+}
+
+.Info-Formulario {
+    font-size: 20px;
+}
+
+/*Paginas Cortas*/
+
+.Main-Corto {
+    height: 800px;
+}
+
+/*Footer*/
+.Footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 42, 33);
+}
+
+.Copyright {
+    flex: 1;
+    font-size: 25px;
+}
+
+.Lista-Footer {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Red {
+    display: flex;
+    align-items: center;
+}
+
+.Link-Red {
+    font-size: 25px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(229, 229, 203);
+}
+
+.Link-Red:hover {
+    color: rgb(213, 206, 163);
+}
+
+/*Responsive*/
+
+@media (min-width:1024px) {}
+
+@media (min-width:320px) and (max-width:480px) {}
