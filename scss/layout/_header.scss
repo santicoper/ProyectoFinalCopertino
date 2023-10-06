@@ -1,0 +1,37 @@
+/*Header*/
+header {
+    background-color: rgb(60, 42, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.Nombre-Nav {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(229, 229, 203);
+}
+
+.Items-Nav {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link {
+    color: rgb(229, 229, 203);
+    text-decoration: none;
+    font-size: 23px;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    color: rgb(213, 206, 163);
+}
+
+.Nombre-Nav:hover {
+    color: rgb(213, 206, 163);
+}

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(/fonts/static/Karla-LightItalic.ttf);
+}
+
+body {
+    font-family: "Karla";
+    color: rgb(229, 229, 203);
+    background-color: rgb(26, 18, 11);
+}

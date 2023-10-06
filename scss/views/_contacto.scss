@@ -1,0 +1,47 @@
+/*Contacto*/
+
+#Contacto-Contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image: url(/images/Banner-Burgers.jpg);
+}
+
+.Formulario {
+    border-style: double;
+    border-color: rgb(229, 229, 203);
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(60, 42, 33);
+    padding-bottom: 10px;
+}
+
+.Titulo-Formulario {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.Boton-Enviar {
+    background-color: rgb(213, 206, 163);
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.Boton-Enviar:hover {
+    background-color: rgb(229, 229, 203);
+}
+
+.Info-Formulario {
+    font-size: 20px;
+}
+
+/*Paginas Cortas*/
+
+.Main-Corto {
+    height: 800px;
+}

@@ -1,0 +1,42 @@
+/*Burgers*/
+
+#Titulo-Burgers {
+    text-align: center;
+}
+
+.Burger {
+    width: 620px;
+    height: 620px;
+    border: 5px rgb(213, 206, 163);
+    background-color: rgb(60, 42, 33);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: double;
+}
+
+.Burger-Image {
+    width: 420px;
+    height: 420px;
+    padding-bottom: 10px;
+}
+
+.Titulo-Burger {
+    font-size: 25px;
+}
+
+#Burgers-Burgers {
+    text-align: center;
+}
+
+.Info-Burger {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Main-Burgers {
+    background-image: url(/images/Banner-Burgers.jpg);
+}

@@ -1,0 +1,35 @@
+/*Opinion*/
+
+#Opiniones-Opiniones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/Banner-Opiniones.jpg);
+    height: 800px;
+}
+
+.Opinion {
+    padding: 10px;
+    border: rgb(229, 229, 203);
+    border-style: double;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(60, 42, 33);
+}
+
+.Nombre-Cliente {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Texto-Cliente {
+    text-align: center;
+    font-size: 20px;
+}
+
+.Imagen-Cliente {
+    border-radius: 50%;
+}

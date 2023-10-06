@@ -1,0 +1,35 @@
+/*Footer*/
+.Footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 42, 33);
+}
+
+.Copyright {
+    flex: 1;
+    font-size: 25px;
+}
+
+.Lista-Footer {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Red {
+    display: flex;
+    align-items: center;
+}
+
+.Link-Red {
+    font-size: 25px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(229, 229, 203);
+}
+
+.Link-Red:hover {
+    color: rgb(213, 206, 163);
+}

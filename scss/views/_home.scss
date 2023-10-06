@@ -1,0 +1,141 @@
+/*Home*/
+
+#BannerHome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+#BannerHome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+#BannerHome .Titulo-Home {
+    font-size: 70px;
+    color: rgb(229, 229, 203);
+    padding: 10px 20px;
+}
+
+#BannerHome .Subtitulo-Home {
+    font-size: 20px;
+    color: rgb(229, 229, 203);
+    padding: 10px 20px;
+}
+
+.imagenes-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.imagen-item {
+    text-align: center;
+    position: relative;
+}
+
+.imagen-texto {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(60, 42, 33);
+    color: rgb(229, 229, 203);
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.imagen-item img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.imagenes-locales {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.imagen-local {
+    flex: 0 0 calc(50% - 10px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.imagen-local:last-child {
+    align-self: flex-end;
+}
+
+.imagen-local img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen-local:hover img {
+    transform: scale(1.05);
+}
+
+.opiniones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Opinion-Home {
+    flex: 0 0 calc(33.33% - 20px);
+    min-width: 250px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Opinion-Home img {
+    max-width: 100%;
+    height: auto;
+    flex: 0 0 100px;
+    margin-bottom: 10px;
+}
+
+.Opinion-Home .contenido-opinion {
+    flex: 1;
+}
+
+.Opinion-Home h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.Boton-Opiniones {
+    display: inline-block;
+    background-color: rgb(60, 42, 33);
+    color: rgb(229, 229, 203);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+}

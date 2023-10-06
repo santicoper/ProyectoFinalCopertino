@@ -1,0 +1,42 @@
+/*Locales*/
+
+#Main-Locales {
+    background-image: url(/images/Banner-Burgers.jpg);
+}
+
+#Imagenes-Local {
+    text-align: center;
+}
+
+.Imagenes-Local2 {
+    border-style: double;
+    margin: 20px;
+}
+
+#Titulo-Locales {
+    text-align: center;
+}
+
+#Ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+Maps {
+    text-align: center;
+}
+
+.Maps iframe {
+    max-width: 300%;
+    height: 300px;
+}
+
+.Maps p {
+    margin: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+}
