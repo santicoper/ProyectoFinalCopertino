@@ -363,6 +363,10 @@ Maps {
 }
 
 /*Opinion*/
+#Titulo-Opinion{
+  text-align: center;
+}
+
 #Opiniones-Opiniones {
   display: flex;
   align-items: center;
@@ -398,6 +402,10 @@ Maps {
 }
 
 /*Contacto*/
+#Titulo-Contacto{
+  text-align: center;
+}
+
 #Contacto-Contacto {
   display: flex;
   align-items: center;
