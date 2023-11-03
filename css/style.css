@@ -231,7 +231,7 @@ header {
 }
 
 #Main-Burgers {
-  background-image: url(/images/Banner-Burgers.jpg);
+  background-image: url(../images/Banner-Burgers.jpg);
 }
 
 /*Bebidas*/
@@ -274,7 +274,7 @@ header {
 }
 
 #Main-Bebidas {
-  background-image: url(/images/Banner-Bebidas.jpg);
+  background-image: url(../images/Banner-Bebidas.jpg);
 }
 
 /*Postres*/
@@ -317,12 +317,12 @@ header {
 }
 
 #Main-Postres {
-  background-image: url(/images/Banner-Postres.jpg);
+  background-image: url(../images/Banner-Postres.jpg);
 }
 
 /*Locales*/
 #Main-Locales {
-  background-image: url(/images/Banner-Burgers.jpg);
+  background-image: url(../images/Banner-Burgers.jpg);
 }
 
 #Imagenes-Local {
@@ -371,7 +371,7 @@ Maps {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/Banner-Opiniones.jpg);
+  background-image: url(../images/Banner-Opiniones.jpg);
   height: 800px;
 }
 
@@ -411,7 +411,7 @@ Maps {
   align-items: center;
   justify-content: center;
   height: 800px;
-  background-image: url(/images/Banner-Burgers.jpg);
+  background-image: url(../images/Banner-Burgers.jpg);
 }
 
 .Formulario {
