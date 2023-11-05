@@ -3,17 +3,40 @@
 @media (min-width:1024px) {}
 
 @media (min-width:320px) and (max-width:480px) {
-    .Items-Nav{
+    .Items-Nav {
         flex-direction: column;
     }
-    .Lista-Footer{
+
+    .Lista-Footer {
         flex-direction: column;
     }
+
     .Burger {
         width: 350px;
         height: 100%;
     }
+
     .Burger-Image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Bebidas {
+        width: 350px;
+        height: 100%;
+    }
+
+    .Imagen-Bebidas {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Postres {
+        width: 350px;
+        height: 100%;
+    }
+
+    .Imagen-Postres {
         width: 200px;
         height: 200px;
     }
