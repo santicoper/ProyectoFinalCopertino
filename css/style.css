@@ -488,5 +488,23 @@ Maps {
 }
 
 /*Responsive*/
+@media (min-width:1024px) {}
+
+@media (min-width:320px) and (max-width:480px) {
+    .Items-Nav{
+        flex-direction: column;
+    }
+    .Lista-Footer{
+        flex-direction: column;
+    }
+    .Burger {
+        width: 350px;
+        height: 100%;
+    }
+    .Burger-Image {
+        width: 200px;
+        height: 200px;
+    }
+}
 
 /*# sourceMappingURL=style.css.map */
